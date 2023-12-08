@@ -19,7 +19,7 @@ header {
   align-items: center;
   height: 96px;
   border-radius: 0px 0px 20.9px 20.9px;
-  background: rgba(224, 85, 118, 1);
+  background: linear-gradient(to right, #c3c3c3, #5b5b5b);
   padding: 10px;
   margin: 0 0 50px 0;
 }
@@ -85,6 +85,7 @@ header h2{
   letter-spacing: 0.14em;
   text-align: center;
   color: white;  
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.377);
 }
 
 /* LIVROS */
@@ -116,9 +117,17 @@ header h2{
   align-items: center;
 }
 .categoria {
+  font-family: Aubrey;
   border: 1px solid  rgb(0, 0, 0);
-  background: rgba(224, 85, 117, 0.756);
+  background: linear-gradient(to bottom, #9d9d9d, #615f5f);
   padding: 0 0 20px 0;
+}
+
+.categoria h2 {
+  font-family: Aubrey;
+  font-weight: 900;
+  font-size: 55px;
+
 }
 .livrobox {
   display: flex;
@@ -130,16 +139,23 @@ header h2{
   text-align: center;
 }
 
+.livrobox button {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  height: 50px;
+  background-color: #c2c2c2;
+  box-shadow: 5px 5px 5px rgba(116, 116, 116, 0.542);
+}
+
 /* FOOTER */
 footer {
-  border-radius: 20.9px 20.9px 0px 0px;
   display: flex;
+  justify-content: space-between;
   width: 97vw;
   height: 67px;
   background: rgba(0, 0, 0, 1);
   align-items: center;
   padding: 15px;
-  margin: 50px 0 0 0;
 }
 footer p {
   font-family: Aubrey;
@@ -149,6 +165,10 @@ footer p {
   letter-spacing: 0.14em;
   text-align: center;
   color: white;  
+}
+footer li {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 /* USER ICON */
@@ -190,4 +210,9 @@ footer p {
 .user-icon ion-icon {
     width: 50px;
     height: 65px;
+}
+.logo img {
+  padding: 15px;
+  width: 150px;
+  height: 100px;
 }

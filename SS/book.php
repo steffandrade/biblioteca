@@ -54,7 +54,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
 </head>
 <body>
     <header>
-        <h2>Serene Library</h2>
+    <div class="logo">
+        <img src="../uploads/logo1.png">
+        </div>
         <div class="links">
             <a href="index.php">
                 <ion-icon name="home-outline"></ion-icon>
@@ -126,7 +128,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         </div>
     </section>
     <footer>
-        <p>Todos os direitos reservados</p>
+    <div class="logo">
+        <img src="../uploads/banner1.png"></div>
+    
+        <div class="redes">
+    <p>Siga nossas redes sociais:</p>
+    <img src="../uploads/facebook.png">
+    <img src="../uploads/insta.png">
+    <img src="../uploads/linkdin.png">
+    </div>
+    
     </footer>
 </body>
 </html>

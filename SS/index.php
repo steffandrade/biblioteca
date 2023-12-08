@@ -49,11 +49,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <title>Serene Library - Index</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
-        <h2>Serene Library</h2>
+        <div class="logo">
+        <img src="../uploads/logo1.png">
+        </div>
         <div class="links">
             <a href="index.php">
                 <ion-icon name="home-outline"></ion-icon>
@@ -94,21 +96,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         <div class="banner">
             <div class="lines"></div>
             <div class="lines2"></div>
-            <img src="Public/Assets/Sob o luar sereno da noite sábia Na biblioteca silente, a luz inicia, Páginas sussurram segredos guardados O sereno dança nos livros encantados.png">
+            <img src="Public/Assets/banner.png">
             <div class="lines"></div>
             <div class="lines2"></div>
         </div>
         <div class="bioP">
-            <img src="Public/Assets/Pietro.jpeg" alt="Pietro">
+        <div class="title">
+        <h1>Sobre</h1>
+        </div>
             <div class="lineBio"></div>
-            <div class="desc"><p>Pietro, nascido em uma pequena cidade costeira, é um escritor mestre que transforma pensamentos em prosa e sentimentos em poesia. 
-            Sua jornada literária começou nos diários, evoluindo para uma fusão de estudo acadêmico e paixão desenfreada por palavras. 
-            Graduado em Letras, tornou-se um colaborador destacado neste site, conquistando corações com suas palavras que capturam a essência da experiência humana.
-            Além de sua escrita envolvente, Pietro é conhecido por sua abordagem colaborativa e pelo estímulo aos escritores emergentes. 
-            Neste aniversário, celebramos sua contribuição única e aguardamos ansiosamente o que o futuro reserva sob sua pena magistral.</p></div>
+            <div class="desc"><p>Explorando o Universo Literário: Conheça a Biblioteca Online
+
+                                No vasto mundo digital, onde a informação e o conhecimento 
+                                estão ao alcance de um clique, 
+                                emerge um oásis literário virtual: a Biblioteca Online. 
+                                Este espaço digital, meticulosamente projetado para os amantes da leitura e da aprendizagem, 
+                                oferece uma experiência única e acessível a todos os públicos.</p></div>
         </div>
         <div class="bioO">
-            <img src="Public/Assets/Oscar.jpeg" alt="Oscar">
+        <div class="title">
+        <h1 style="font-size:80px">Sobre Nós</h1>
+        </div>
             <div class="lineBio"></div>
             <div class="desc"><p>Oscar Osvaldo é um talentoso autor e programador cujo dom para contar histórias se funde elegantemente com sua habilidade em código. 
             Desde jovem, Oscar cativou leitores com narrativas envolventes, e ao abraçar a era digital, ele se tornou um mestre na programação, criando soluções inovadoras.
@@ -122,7 +130,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         </div>
     </section>
     <footer>
-        <p>Todos os direitos reservados</p>
+    <div class="logo">
+        <img src="../uploads/banner1.png"></div>
+    
+        <div class="redes">
+    <p>Siga nossas redes sociais:</p>
+    <img src="../uploads/facebook.png">
+    <img src="../uploads/insta.png">
+    <img src="../uploads/linkdin.png">
+    </div>
+    
     </footer>
 </body>
 </html>

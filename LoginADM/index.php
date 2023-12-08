@@ -19,7 +19,7 @@
     <button id="log" onclick="logout()"><ion-icon name="log-out-outline"></ion-icon></button><br>
     <div class="container">
         <a href="livro.php">Livros</a>
-        <a href="users.php">Users</a>
+        <a href="users.php">Usuários</a>
         <a href="lista.php">Lista</a>
     </div>
 </body>

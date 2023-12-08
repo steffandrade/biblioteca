@@ -19,7 +19,7 @@ header {
   align-items: center;
   height: 96px;
   border-radius: 0px 0px 20.9px 20.9px;
-  background: rgba(224, 85, 118, 1);
+  background: linear-gradient(to right, #c3c3c3, #5b5b5b);
   padding: 10px;
   margin: 0 0 50px 0;
 }
@@ -90,7 +90,7 @@ header h2{
   bottom: 0;
   right: 35px;
   width: 2.5px;
-  background: linear-gradient(to bottom, rgba(224, 85, 118, 1), rgb(255 163 185));
+  background: linear-gradient(to bottom, #575757, #6f6b6c);
   animation: moveLines 2s infinite alternate;
 }
 
@@ -116,7 +116,7 @@ header h2{
   bottom: 0;
   left: 35px;
   width: 2.5px;
-  background: linear-gradient(to bottom, rgba(224, 85, 118, 1), rgb(255 163 185));
+  background: linear-gradient(to bottom, #575757, #6f6b6c);
   animation: moveLines2 2s infinite alternate;
 }
 
@@ -170,7 +170,8 @@ header h2{
 .bioP .lineBio{
   border-radius: 7px;
   width: 2.5px;
-  background: linear-gradient(to bottom, rgba(224, 85, 118, 1), rgb(255 163 185));
+  background: linear-gradient(to right, #575757, #6f6b6c);
+  box-shadow: 5px 5px 5px#57575785;
 }
 .bioP .desc{
   display: flex;
@@ -203,7 +204,8 @@ text-align: center;
 .bioO .lineBio{
   border-radius: 7px;
   width: 2.5px;
-  background: linear-gradient(to top, rgba(224, 85, 118, 1), rgb(255 163 185));
+  background: linear-gradient(to right, #575757, #6f6b6c);
+  box-shadow: 5px 5px 5px#57575785;
 }
 .bioO .desc{
   display: flex;
@@ -248,13 +250,13 @@ text-align: center;
 }
 .pub .cub {
   width: 50%;
-  background: rgba(224, 85, 118, 1);
+  background: linear-gradient(to right, #575757, #6f6b6c);
 }
 
 /* FOOTER */
 footer {
-  border-radius: 20.9px 20.9px 0px 0px;
   display: flex;
+  justify-content: space-between;
   width: 97vw;
   height: 67px;
   background: rgba(0, 0, 0, 1);
@@ -269,6 +271,10 @@ footer p {
   letter-spacing: 0.14em;
   text-align: center;
   color: white;  
+}
+footer li {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 /* USER ICON */
@@ -310,4 +316,35 @@ footer p {
 .user-icon ion-icon {
     width: 50px;
     height: 65px;
+}
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35vw;
+  
+}
+
+.title h1 {
+  font-family: sans-serif;
+  text-shadow: 5px 5px 5px#57575785;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.title h1:hover {
+  text-decoration: underline rgb(77, 76, 76);
+}
+
+.logo img {
+  padding: 15px;
+  width: 150px;
+  height: 100px;
+}
+
+.redes {
+  display: flex;
 }
